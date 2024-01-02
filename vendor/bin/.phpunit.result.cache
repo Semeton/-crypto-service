@@ -1,0 +1,1 @@
+{"version":1,"defects":{"Tests::testDecrypt":8,"Tests::testDecryptWithWrongSecretCode":8,"Tests::testEncrypt":8},"times":{"Tests::testEncrypt":0.027,"Tests::testDecrypt":0,"Tests::testDecryptWithWrongSecretCode":0.001}}
