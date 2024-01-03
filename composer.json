@@ -25,7 +25,8 @@
   "require": {
     "php": ">=8.0",
     "ext-sodium": "*",
-    "laravel/framework": "^8.0"
+    "laravel/framework": "^8.0",
+    "semeton/crypto-service": "^1.0"
   },
   "require-dev": {
     "phpunit/phpunit": "^10.5"
@@ -34,5 +35,6 @@
     "email": "balogunsemeton@gmail.com",
     "issues": "https://github.com/semeton/crypto-service/issues",
     "source": "https://github.com/semeton/crypto-service"
-  }
+  },
+  "version": "1.0.0"
 }
