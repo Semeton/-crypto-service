@@ -82,11 +82,6 @@ class CryptoService
                 return "Error: Decryption failed: " . $e->getMessage();
             }
 
-
-            // if (!is_string($plain)) {
-            //     return "Error: Invalid data or secret code";
-            // }
-
             sodium_memzero($ciphertext);
             sodium_memzero($this->key);
 
