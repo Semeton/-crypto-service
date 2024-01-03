@@ -1,6 +1,6 @@
 # CryptoService
 
-CryptoService is a robust package that provides a simple yet secure way to encrypt and decrypt messages using a secret code. It leverages the power of the Sodium cryptographic library to ensure the highest level of security. This document provides a comprehensive guide on how to install and use CryptoService, along with a detailed explanation of its methods.
+CryptoService is a package that provides a simple yet secure way to encrypt and decrypt messages using a secret code. It leverages the power of the Sodium cryptographic library to ensure the highest level of security. This document provides a comprehensive guide on how to install and use CryptoService, along with a detailed explanation of its methods.
 
 ## Installation
 
@@ -10,7 +10,7 @@ Installing CryptoService is a breeze with the package manager [composer](https:/
 
 ### Overview
 
-The `CryptoService` class provides encryption and decryption services using the Sodium cryptographic library. It uses a secret key stored in the environment variable `ENCRYPTION_KEY`.
+The `CryptoService` class provides encryption and decryption services using the Sodium cryptographic library. It uses a secret key of a 64 bits of random string.
 
 ### Methods
 
