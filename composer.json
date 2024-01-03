@@ -24,8 +24,7 @@
   ],
   "require": {
     "php": ">=8.0",
-    "ext-sodium": "*",
-    "laravel/framework": "^10.0"
+    "ext-sodium": "*"
   },
   "require-dev": {
     "phpunit/phpunit": "^10.5"
