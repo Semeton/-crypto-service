@@ -17,12 +17,6 @@ The `CryptoService` class provides encryption and decryption services us
 
 #### `__construct()`
 
-This is the constructor method for the `CryptoService` class.
-
-- Parameters: None
-- Returns: None
-- Description: Initializes the `$key` property with the value of the `ENCRYPTION_KEY` environment variable.
-
 #### `encrypt(string $message, string $secretCode): string`
 
 This method encrypts a given message.
