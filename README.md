@@ -5,6 +5,7 @@ CryptoService is a package that provides a simple yet secure way to encrypt and 
 ## Installation
 
 Installing CryptoService is a breeze with the package manager [composer](https://getcomposer.org/). Follow the link to download and install composer if you have not already.
+`composer require semeton/crypto-service`
 
 ## CryptoService Class Documentation
 
