@@ -15,8 +15,6 @@ The `CryptoService` class provides encryption and decryption services us
 
 ### Methods
 
-#### `__construct()`
-
 #### `encrypt(string $message, string $secretCode): string`
 
 This method encrypts a given message.
