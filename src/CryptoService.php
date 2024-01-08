@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace Semeton\CryptoService;
 
+use ICryptoInterface;
+
 /**
  * Class CryptoService
  * @author Semeton Balogun <balogunsemeton@gmail.com> 2024
@@ -13,8 +15,7 @@ namespace Semeton\CryptoService;
  *
  * @package App\Services
  */
-class CryptoService
-{
+class CryptoService implements ICryptoInterface {
     /**
      * The key used for encryption and decryption.
      *
